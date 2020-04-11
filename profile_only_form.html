@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Details</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        
+        <style>
+            .container-fluid {
+                height: 400px;
+            }
+
+            .form-container {
+                background: #fff;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 0px #000;
+            }
+
+            .row {
+                padding-top: 10px;
+            }
+
+           
+
+
+            
+
+            .top {
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid bg">
+           
+            <div class="row justify-content-center ">
+                <div class="col-12 col-sm-9 col-md-9 col-lg-7 mx-auto ">
+                    <form class="form-container" id="updateform">
+                        <h1 class="top">User Details</h1>
+                        <div class="sep">
+                            <hr />
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter your full name"
+                                id="name"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="name">Email:</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="phno">Your Contact No:</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                placeholder="Enter your Contact No"
+                                id="phone"
+                                required
+                            />
+                        </div>
+						
+						<div class="form-group">
+                            <label for="Gender">Gender:</label>
+						<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Male
+						</label>
+						</div>
+						<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Female
+						</label>
+						</div>
+						<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Other
+						</label>
+						</div>
+						</div>
+						
+                        <div class="form-group">
+                            <label for="college">Your College Name:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter your college name"
+                                id="college"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="name">Date Of Birth:</label>
+                            <input
+                                type="date"
+                                class="form-control"
+                                placeholder="Enter your Dob"
+                                id="dob"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="name">Your Department:</label>
+                            <input
+                                type="date"
+                                class="form-control"
+                                placeholder="Your Department"
+                                id="dept"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">City:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter city name"
+                                id="city"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">State:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter State name"
+                                id="state"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">Pincode:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Your Pincode"
+                                id="pin"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">Country:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="India"
+                                id="Country"
+                                required
+								disabled
+                            />
+                        </div>
+                        
+
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    required
+                                />
+                                Terms And Conditions</label>
+                            
+                        <a href="javascript://" data-html="true" data-toggle="popover"
+                                  
+                        data-trigger="focus">Click Here</a>    
+                        </div>
+                            
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

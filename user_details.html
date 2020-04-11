@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>User Details</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
+  
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+            .container-fluid {
+                height: 400px;
+            }
+
+            .form-container {
+                background: #fff;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 0px #000;
+            }
+
+            .row {
+                padding-top: 10px;
+            }
+
+           
+
+
+            
+
+            .top {
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+			#foot{
+			margin-top:1000px;
+			}
+			#frm{
+			margin-top:80px;
+			}
+        </style>
+</head>
+<body>
+
+  <!--================ Header Menu Area start =================-->
+   <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/lb2.svg" width="270px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+              <li class="nav-item "><a class="nav-link" href="about.html">About</a></li> 
+              <li class="nav-item"><a class="nav-link" href="speaker.html">Event</a>
+              
+			  <li class="nav-item"><a class="nav-link" href="event-gallery.html">Gallery</a></li>
+              <li class="nav-item "><a class="nav-link" href="contact.html">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Join Us</a></li>
+            </ul>
+
+            <ul class="nav-right text-center text-lg-right py-4 py-lg-0">
+            <li><a href="#">Register Now</a></li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+
+  
+  <!--================Hero Banner Area Start =================-->
+  <section class="hero-banner hero-banner-sm">
+    <div class="container text-center">
+      <h2>User Details</h2>
+      <nav aria-label="breadcrumb" class="banner-breadcrumb">
+      
+     </nav>
+    </div>
+  </section>
+  <!--================Hero Banner Area End =================-->
+
+
+  <!-- Form-->
+    <div class="container-fluid bg" id="frm">
+           
+            <div class="row justify-content-center ">
+                <div class="col-12 col-sm-9 col-md-9 col-lg-7 mx-auto ">
+                    <form class="form-container" id="updateform">
+                        <h1 class="top">User Details</h1>
+                        <div class="sep">
+                            <hr />
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter your full name"
+                                id="name"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="name">Email:</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="phno">Your Contact No:</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                placeholder="Enter your Contact No"
+                                id="phone"
+                                required
+                            />
+                        </div>
+						
+						<div class="form-group">
+                            <label for="Gender">Gender:</label>
+						<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Male
+						</label>
+						</div>
+						<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Female
+						</label>
+						</div>
+						<div class="form-check">
+						<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optradio">Other
+						</label>
+						</div>
+						</div>
+						
+                        <div class="form-group">
+                            <label for="college">Your College Name:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter your college name"
+                                id="college"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="name">Date Of Birth:</label>
+                            <input
+                                type="date"
+                                class="form-control"
+                                placeholder="Enter your Dob"
+                                id="dob"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="name">Your Department:</label>
+                            <input
+                                type="date"
+                                class="form-control"
+                                placeholder="Your Department"
+                                id="dept"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">City:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter city name"
+                                id="city"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">State:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter State name"
+                                id="state"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">Pincode:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Your Pincode"
+                                id="pin"
+                                required
+                            />
+                        </div>
+						<div class="form-group">
+                            <label for="college">Country:</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="India"
+                                id="Country"
+                                required
+								disabled
+                            />
+                        </div>
+                        
+
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    required
+                                />
+                                Terms And Conditions</label>
+                            
+                        <a href="javascript://" data-html="true" data-toggle="popover"
+                                  
+                        data-trigger="focus">Click Here</a>    
+                        </div>
+                            
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+  <!-- Form Ends-->
+
+
+
+
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area" id="foot">
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="col-lg-3  col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h6>Learn Bird WORKSHOPS</h6>
+            <p>
+			 By Team Learn Bird
+           </p>
+          </div>
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h6>Newsletter</h6>
+            <p>
+              Join Our Newsletter to get updates about our upcoming workshops									
+            </p>								
+            <div id="mc_embed_signup">
+              <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
+                <div class="input-group d-flex flex-row">
+                  <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                  <button class="btn bb-btn"><span class="lnr lnr-location"></span></button>		
+                </div>									
+                <div class="mt-10 info"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-6">
+          <div class="single-footer-widget mail-chimp">
+            <h6 class="mb-20  ">Connect With Us</h6>
+            <div class="d-flex  flex-row col-lg-4  col-sm-12 footer-social text-center text-lg-right">
+            <a href="#" style="padding:9px;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="padding:9px;"><i class="fab fa-twitter"></i></a>
+           
+            <a href="#" style="padding:9px;"><i class="fab fa-instagram"></i></a>
+          </div>
+          </div>
+        </div>						
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>Learn Bird  All rights reserved  
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+         
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================ End footer Area ================= -->
+
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/mail-script.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>	
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
